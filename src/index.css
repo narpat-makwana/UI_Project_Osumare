@@ -1,0 +1,20 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.gradient-box-blue {
+    width: 576px;
+    height: 576px;
+    background: radial-gradient(circle, rgba(64,154,255,1) 0%, rgba(64,154,255,0) 70%);
+    transform: rotate(-140.53deg) translateY(-50%);
+    opacity: 0.24;
+}
+
+.gradient-box-red {
+    width: 381.87px;
+    height: 630.4px;
+    background: radial-gradient(circle, rgba(255,114,94,1) 0%, rgba(255,114,94,0) 70%);
+    transform: rotate(126.03deg) translateY(-50%);
+    opacity: 0.24;
+}
